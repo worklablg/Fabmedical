@@ -42,6 +42,6 @@ jobs:
         pull: true
         push: true
         tags: |
- 	  ${{ env.containerRegistry }}/${{ env.imageRepository }}: ${{ env.tag }}
+          ${{ env.containerRegistry }}/${{ env.imageRepository }}:${{ env.tag }}
           ${{ env.containerRegistry }}/${{ env.imageRepository }}:latest
 
