@@ -6,7 +6,7 @@ on:
     - master
     paths:
     - 'content-web/**'
-    workflow_dispatch:
+  workflow_dispatch:
 
 env:
   imageRepository: 'content-web'
